@@ -12,11 +12,11 @@ import {
   Price,
 } from "./product-card.styles";
 
-import { CartItem } from "../../store/cart/cart.types";
+import { CategoryItem } from "../../store/categories/category.types";
 import { FC } from "react";
 
 type ProductCardProps = {
-  product: CartItem;
+  product: CategoryItem;
 };
 
 const ProductCard: FC<ProductCardProps> = ({ product }) => {
