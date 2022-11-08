@@ -23,7 +23,6 @@ const getButton = (buttonType = BUTTON_TYPE_CLASSES.base): typeof BaseButton =>
 export type ButtonProps = {
   buttonType?: BUTTON_TYPE_CLASSES;
   isLoading?: boolean;
-  chilren: React.ReactNode;
 } & ButtonHTMLAttributes<HTMLButtonElement>;
 
 const Button: FC<ButtonProps> = ({
